@@ -36,7 +36,13 @@ a {
 
 .text {
   color: #33475a;
-  font-size:
+  font-size: 16px;
+}
+
+.button {
+  background-color: #ff7a59;
+  color: white;
+  border-radius: 3px;
 }
 /* FINE REGOLE GENERALI */
 
@@ -44,6 +50,7 @@ a {
 header nav {
   background-color: #f5f8fa;
   padding: 25px 0;
+  border-bottom: 1px solid #33475a;
 }
 
 header nav .container .col {
@@ -59,8 +66,26 @@ header nav .container .col.col-language ul li:first-child {
   border-right: 1px solid #33475a;
 }
 
+header nav .container .col.col-language i {
+  color: #33475a;
+}
+
 header nav .container .col.col-login {
   text-align: right;
+}
+
+header nav .container .col.col-login .fas {
+  color: #00a4bd;
+}
+
+header nav .container .col.col-login ul li:nth-child(2) a {
+  color: #ff7a59;
+  background-color: white;
+}
+
+header nav .container .col.col-login a.button {
+  padding: 7px 10px;
+  border: 1px solid #ff7a59;
 }
 
 /* FINE HEADER */
