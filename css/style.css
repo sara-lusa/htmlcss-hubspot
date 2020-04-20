@@ -1,0 +1,13 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* FINE RESET */
+
+/* REGOLE GENERALI */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+/* FINE REGOLE GENERALI */
