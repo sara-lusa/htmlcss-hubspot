@@ -21,7 +21,7 @@ a {
 
 .container {
   width: 100%;
-  padding: 0 10%;
+  padding: 0 15%;
 }
 
 .clearfix {
@@ -37,12 +37,14 @@ a {
 .text {
   color: #33475a;
   font-size: 16px;
+  line-height: 30px;
 }
 
 .button {
   background-color: #ff7a59;
   color: white;
   border-radius: 3px;
+  padding: 20px 25px;
 }
 
 /* .fa-angle-down {
@@ -102,6 +104,7 @@ header .menu {
 }
 
 header .menu .container .col {
+  /* line-height: 30px; */
   width: 50%;
 }
 
@@ -118,4 +121,28 @@ header .menu .container .col ul li a i {
   padding: 0 10px;
 }
 /* Fine Menu */
+
+/* Inizio Teaser */
+header .teaser {
+  background-image: url(../img/jumbotron.png);
+  height: 690px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-color: #fef3ee;
+}
+
+header .teaser .container {
+  width: 70%;
+  padding-top: 50px;
+}
+
+header .teaser .container h1 {
+  font-size: 50px;
+  color: #33475a;
+}
+
+header .teaser .container .text {
+  margin: 35px 0;
+}
+/* Fine Teaser */
 /* FINE HEADER */
