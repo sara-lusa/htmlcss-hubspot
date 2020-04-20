@@ -44,9 +44,15 @@ a {
   color: white;
   border-radius: 3px;
 }
+
+/* .fa-angle-down {
+  font-size: 20px;
+} */
+
 /* FINE REGOLE GENERALI */
 
 /* HEADER */
+/* Navigation */
 header nav {
   background-color: #f5f8fa;
   padding: 25px 0;
@@ -87,5 +93,29 @@ header nav .container .col.col-login a.button {
   padding: 7px 10px;
   border: 1px solid #ff7a59;
 }
+/* Fine Navigation */
 
+/* Menu */
+header .menu {
+  background-color: white;
+  padding: 25px 0;
+}
+
+header .menu .container .col {
+  width: 50%;
+}
+
+header .menu .container .col:last-child {
+  text-align: right;
+}
+
+header .menu .container .col ul li {
+  display: inline-block;
+}
+
+header .menu .container .col ul li a,
+header .menu .container .col ul li a i {
+  padding: 0 10px;
+}
+/* Fine Menu */
 /* FINE HEADER */
