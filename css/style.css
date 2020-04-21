@@ -25,6 +25,17 @@ main h2 {
   margin-bottom: 35px;
 }
 
+main .title {
+  color: #33475a;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+main .subtitle {
+  text-transform: uppercase;
+  color: #33475a
+}
+
 .container {
   width: 100%;
   padding: 0 15%;
@@ -180,7 +191,8 @@ main .offers .intro {
 /* Fine Intro */
 
 /* Inizio Services */
-main .offers .services .line-services {
+main .offers .services .line-services,
+main .offers .services .col-services .col {
   background-color: white;
   border: 2px solid #e9eff3;
   border-radius: 2px;
@@ -197,7 +209,7 @@ main .offers .services .line-services .col:first-child {
   padding-bottom: 80px;
 }
 
-main .offers .services .line-services .col:first-child img {
+main .offers .services .icons {
   height: 150px;
   margin-bottom: 35px;
 }
@@ -210,11 +222,32 @@ main .offers .services .line-services .col:last-child hr,
 main .offers .services .line-services .col:last-child h4,
 main .offers .services .line-services .col:last-child li {
   display: inline-block;
+  margin-top: 20px;
 }
 
 main .offers .services .line-services .col:last-child hr {
-  width: 80%;
+  width: 60%;
+  margin-bottom: 5px;
+  margin-left: 40px;
 }
 
+main .offers .services .line-services .col:last-child i {
+  color: #ff7a59;
+  padding-right: 10px;
+}
+
+main .offers .services .line-services .col:last-child li {
+  padding-right: 10px;
+}
+
+/* Inizio Colonne */
+main .offers .services .col-services .col {
+  width: 30%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+/* Fine Colonne */
 /* Fine Services */
 /* FINE MAIN */
