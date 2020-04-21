@@ -194,6 +194,7 @@ main .offers .services .line-services .col {
 main .offers .services .line-services .col:first-child {
   width: 30%;
   text-align: center;
+  padding-bottom: 80px;
 }
 
 main .offers .services .line-services .col:first-child img {
@@ -206,7 +207,8 @@ main .offers .services .line-services .col:last-child {
 }
 
 main .offers .services .line-services .col:last-child hr,
-main .offers .services .line-services .col:last-child h4 {
+main .offers .services .line-services .col:last-child h4,
+main .offers .services .line-services .col:last-child li {
   display: inline-block;
 }
 
