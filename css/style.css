@@ -269,7 +269,7 @@ main .community {
   background-color: #01aab7;
   color: white;
   text-align: center;
-  padding: 40px 0;
+  padding: 40px 0 100px 0;
 }
 
 main .community h2,
@@ -293,9 +293,9 @@ main .community .col:nth-child(10) {
   border-right: 0;
 }
 
-/* main .communty .col:nth-child() {
+main .community .col:nth-child(1n+7) {
   border-bottom: 0;
-} */
+}
 
 main .community .col p {
   font-size: 12px;
