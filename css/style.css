@@ -19,6 +19,12 @@ a {
   text-decoration: none;
 }
 
+main h2 {
+  color: #33475a;
+  font-size: 35px;
+  margin-bottom: 35px;
+}
+
 .container {
   width: 100%;
   padding: 0 15%;
@@ -159,3 +165,25 @@ header .division {
 }
 /* Fine Divisione */
 /* FINE HEADER */
+
+/* MAIN */
+/* Inizio Intro */
+main .offers {
+  background-color: #f5f8fa;
+}
+
+main .offers .intro {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+/* Fine Intro */
+
+/* Inizio Services */
+main .offers .services .line-services {
+  background-color: white;
+  border: 2px solid #e9eff3;
+  border-radius: 2px;
+}
+/* Fine Services */
+/* FINE MAIN */
