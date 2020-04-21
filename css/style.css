@@ -196,6 +196,7 @@ main .offers .services .col-services .col {
   background-color: white;
   border: 2px solid #e9eff3;
   border-radius: 2px;
+  margin-bottom: 20px;
 }
 
 main .offers .services .line-services .col {
@@ -244,10 +245,22 @@ main .offers .services .line-services .col:last-child li {
 main .offers .services .col-services .col {
   width: 30%;
   text-align: center;
-  padding: 10px 0;
+  padding: 10px 25px 50px 25px;
 }
 
+main .offers .services .col-services .col:nth-child(2) {
+  margin: 0 5%;
+}
 
+main .offers .services .col-services .col hr {
+  width: 80%;
+  margin: 50px auto 30px auto;
+}
+
+main .offers .services .col-services .col ul {
+  text-align: left;
+  margin: 40px 0 60px 0;
+}
 /* Fine Colonne */
 /* Fine Services */
 /* FINE MAIN */
