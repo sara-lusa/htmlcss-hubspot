@@ -288,6 +288,15 @@ main .community .col {
   padding: 30px 0;
 }
 
+main .community .col:nth-child(6),
+main .community .col:nth-child(10) {
+  border-right: 0;
+}
+
+/* main .communty .col:nth-child() {
+  border-bottom: 0;
+} */
+
 main .community .col p {
   font-size: 12px;
   margin: 0;
