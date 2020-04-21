@@ -36,6 +36,12 @@ main .subtitle {
   color: #33475a
 }
 
+main .number {
+  font-size: 30px;
+  font-weight: 650;
+  text-transform: uppercase;
+}
+
 .container {
   width: 100%;
   padding: 0 15%;
@@ -297,7 +303,7 @@ main .community .col:nth-child(1n+7) {
   border-bottom: 0;
 }
 
-main .community .col p {
+main .community .col p:not(.number) {
   font-size: 12px;
   margin: 0;
 }
@@ -307,10 +313,57 @@ main .community .col img {
 }
 
 main .community .col .number {
-  font-size: 30px;
-  font-weight: 650;
-  text-transform: uppercase;
   margin: 17px 0;
 }
 /* Fine Community */
+
+/* Inizio Supporters */
+main .supporters .partners {
+  padding: 40px 0;
+}
+
+main .supporters .partners .col:first-child {
+  width: 30%;
+  text-align: center;
+  padding: 0 20px 40px 20px;
+}
+
+main .supporters .partners .col:last-child {
+  width: 70%;
+  text-align: center;
+}
+
+main .supporters .partners .col img {
+  display: inline-block;
+  width: 20%;
+  padding: 0 20px;
+}
+
+main .supporters .cta {
+  margin-bottom: 40px;
+}
+
+main .supporters .cta .col:first-child {
+  width: 40%;
+}
+
+main .supporters .cta .col:first-child p {
+  margin: 70px 0;
+}
+
+main .supporters .cta .col:first-child p:last-child {
+  margin-bottom: 0;
+}
+
+main .supporters .cta .col:last-child {
+  width: 60%;
+  text-align: right;
+}
+
+main .supporters .cta .col:last-child img {
+  height: 400px;
+}
+
+
+/* Fine Supporters */
 /* FINE MAIN */
