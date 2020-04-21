@@ -202,7 +202,7 @@ main .offers .services .col-services .col {
   background-color: white;
   border: 2px solid #e9eff3;
   border-radius: 2px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 main .offers .services .line-services .col {
@@ -318,6 +318,7 @@ main .community .col .number {
 /* Fine Community */
 
 /* Inizio Supporters */
+/* Partners */
 main .supporters .partners {
   padding: 40px 0;
 }
@@ -338,7 +339,7 @@ main .supporters .partners .col img {
   width: 20%;
   padding: 0 20px;
 }
-
+/* Cta */
 main .supporters .cta {
   margin-bottom: 40px;
 }
@@ -363,7 +364,28 @@ main .supporters .cta .col:last-child {
 main .supporters .cta .col:last-child img {
   height: 400px;
 }
-
-
 /* Fine Supporters */
 /* FINE MAIN */
+
+/* FOOTER */
+footer {
+  background-color: #32495b;
+  color: #b4c1ce;
+}
+
+footer .container .footer-menus .col {
+  width: 25%;
+  padding: 30px 0;
+}
+
+footer .container .footer-menus .col li a {
+  color: #b4c1ce;
+  line-height: 40px;
+}
+
+footer .container .footer-menus .col li h5 {
+  color: white;
+  padding-bottom: 15px;
+}
+
+/* FINE FOOTER */
