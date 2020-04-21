@@ -263,4 +263,45 @@ main .offers .services .col-services .col ul {
 }
 /* Fine Colonne */
 /* Fine Services */
+
+/* Inizio Community */
+main .community {
+  background-color: #01aab7;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+}
+
+main .community h2,
+main .community p {
+  color: white;
+}
+
+main .community p {
+  margin-bottom: 30px;
+}
+
+main .community .col {
+  width: 25%;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 30px 0;
+}
+
+main .community .col p {
+  font-size: 12px;
+  margin: 0;
+}
+
+main .community .col img {
+  height: 33px;
+}
+
+main .community .col .number {
+  font-size: 30px;
+  font-weight: 650;
+  text-transform: uppercase;
+  margin: 17px 0;
+}
+/* Fine Community */
 /* FINE MAIN */
