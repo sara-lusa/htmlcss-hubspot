@@ -185,5 +185,34 @@ main .offers .services .line-services {
   border: 2px solid #e9eff3;
   border-radius: 2px;
 }
+
+main .offers .services .line-services .col {
+  padding: 50px;
+}
+
+
+main .offers .services .line-services .col:first-child {
+  width: 30%;
+  text-align: center;
+}
+
+main .offers .services .line-services .col:first-child img {
+  height: 150px;
+  margin-bottom: 35px;
+}
+
+main .offers .services .line-services .col:last-child {
+  width: 70%;
+}
+
+main .offers .services .line-services .col:last-child hr,
+main .offers .services .line-services .col:last-child h4 {
+  display: inline-block;
+}
+
+main .offers .services .line-services .col:last-child hr {
+  width: 80%;
+}
+
 /* Fine Services */
 /* FINE MAIN */
