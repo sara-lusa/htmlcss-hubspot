@@ -50,6 +50,10 @@ main .fa-check-circle {
   color: #ff7a59;
 }
 
+footer a.text:hover {
+  color: white;
+}
+
 .container {
   width: 100%;
   padding: 0 15%;
@@ -111,7 +115,7 @@ header nav .container .col.col-language ul li:first-child {
   border-right: 1px solid #33475a;
 }
 
-header nav .container .col.col-language i {
+header nav .container .col.col-language i.fa-globe-europe {
   color: #33475a;
 }
 
@@ -126,6 +130,11 @@ header nav .container .col.col-login .fas {
 header nav .container .col.col-login ul li:nth-child(2) a {
   color: #ff7a59;
   background-color: white;
+}
+
+header nav .container .col.col-login ul li:nth-child(2) a:hover {
+  color: white;
+  background-color: #ff7a59;
 }
 
 header nav .container .col.col-login a.button {
@@ -393,7 +402,7 @@ footer .container .footer-menus .col {
 
 footer .container li a {
   color: #b4c1ce;
-  line-height: 35px;
+  line-height: 40px;
 }
 
 footer .container .footer-menus .col li h5 {
@@ -406,17 +415,24 @@ footer .container .footer-menus .col li h5 {
   background-color: white;
   padding: 10px 10px;
   border-radius: 5px;
+  line-height: 70px;
 }
 
-footer .container .footer-menus .col ul:last-child li {
+#support-link:hover {
+  color: white;
+  background-color: #32495b;
+  border: 1px solid white;
+}
+
+footer .container .footer-menus .col .social-link li {
   display: inline-block;
   margin-right: 32px;
-  margin-top: 10px;
 }
 
 /* Colonna Languages-Menu */
 footer .container .languages-menu {
   text-align: center;
+  margin-top: 25px;
 }
 
 footer .container .languages-menu li {
