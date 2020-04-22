@@ -484,3 +484,21 @@ footer .container .copyrights .col:last-child li {
 }
 /* Fine Colonna Copyrights */
 /* FINE FOOTER */
+
+/* CHAT-BUTTON */
+.chat-icon {
+  background-color: #425b76;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 83px;
+  position: fixed;
+  bottom: 2%;
+  right: 1%;
+}
+
+.chat-icon img {
+  width: 32px;
+}
+/* FINE CHAT BUTTON */
