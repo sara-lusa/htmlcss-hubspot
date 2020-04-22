@@ -25,7 +25,7 @@ a:hover {
 
 main h2 {
   color: #33475a;
-  font-size: 35px;
+  font-size: 30px;
   margin-bottom: 35px;
 }
 
@@ -217,6 +217,10 @@ main .offers .intro {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
+main .offers .intro img {
+  height: 200px;
+}
 /* Fine Intro */
 
 /* Inizio Services */
@@ -240,7 +244,7 @@ main .offers .services .line-services .col:first-child {
 }
 
 main .offers .services .icons {
-  height: 150px;
+  height: 100px;
   margin-bottom: 35px;
 }
 
@@ -273,7 +277,7 @@ main .offers .services .line-services .col:last-child li {
 main .offers .services .col-services .col {
   width: 30%;
   text-align: center;
-  padding: 10px 25px 50px 25px;
+  padding: 20px 25px 50px 25px;
 }
 
 main .offers .services .col-services .col:nth-child(2) {
@@ -347,8 +351,11 @@ main .supporters .partners {
 
 main .supporters .partners .col:first-child {
   width: 30%;
-  text-align: center;
-  padding: 0 20px 40px 20px;
+  padding: 0 40px 40px 100px;
+}
+
+main .supporters .partners .col:first-child .number {
+  padding-bottom: 30px;
 }
 
 main .supporters .partners .col:last-child {
@@ -356,14 +363,20 @@ main .supporters .partners .col:last-child {
   text-align: center;
 }
 
+main .supporters .partners .col div:first-child {
+  line-height: 90px;
+}
+
 main .supporters .partners .col img {
   display: inline-block;
   width: 20%;
   padding: 0 20px;
+  vertical-align: middle;
 }
 /* Cta */
 main .supporters .cta {
-  margin-bottom: 40px;
+  margin-bottom: 60px;
+  margin-top: 25px;
 }
 
 main .supporters .cta .col:first-child {
@@ -376,6 +389,7 @@ main .supporters .cta .col:first-child p {
 
 main .supporters .cta .col:first-child p:last-child {
   margin-bottom: 0;
+  font-size: 13px;
 }
 
 main .supporters .cta .col:last-child {
@@ -384,7 +398,7 @@ main .supporters .cta .col:last-child {
 }
 
 main .supporters .cta .col:last-child img {
-  height: 400px;
+  width: 45%;
 }
 /* Fine Supporters */
 /* FINE MAIN */
@@ -429,6 +443,10 @@ footer .container .footer-menus .col .social-link li {
   margin-right: 32px;
 }
 
+footer .container .footer-menus .col .social-link li a:hover {
+  color: white;
+}
+
 /* Colonna Languages-Menu */
 footer .container .languages-menu {
   text-align: center;
@@ -444,6 +462,11 @@ footer .container .languages-menu li {
 footer .container .copyrights .col {
   width: 50%;
   padding: 40px 0;
+}
+
+footer .container .copyrights .col p {
+  color: white;
+  font-weight: 500;
 }
 
 footer .container .copyrights .col:last-child {
