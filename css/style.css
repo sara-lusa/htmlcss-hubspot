@@ -513,7 +513,7 @@ footer .container .copyrights .col:last-child li {
 .chat-window {
   width: 250px;
   position: fixed;
-  bottom: 15%;
+  bottom: 13%;
   right: 1%;
 }
 
@@ -545,7 +545,7 @@ footer .container .copyrights .col:last-child li {
 }
 
 .chat-window div p {
-  padding: 30px 10px;
+  padding: 30px 10px 20px 20px;
   font-size: 14px;
   line-height: 25px;
   color: #32495b;
