@@ -486,13 +486,15 @@ footer .container .copyrights .col:last-child li {
 /* FINE FOOTER */
 
 /* CHAT-BUTTON */
+/* Inizio Chat-Icon */
 .chat-icon {
   background-color: #425b76;
   width: 60px;
   height: 60px;
   text-align: center;
+  border: 1px solid #425b76;
   border-radius: 50%;
-  line-height: 83px;
+  line-height: 82px;
   position: fixed;
   bottom: 2%;
   right: 1%;
@@ -502,6 +504,12 @@ footer .container .copyrights .col:last-child li {
   width: 32px;
 }
 
+.chat-icon:hover {
+  border: 1px solid white;
+}
+/* Fine Chat-Icon */
+
+/* Inizio Chat-Window */
 .chat-window {
   width: 250px;
   position: fixed;
@@ -527,18 +535,20 @@ footer .container .copyrights .col:last-child li {
   position: absolute;
   top: 0;
   right: 0;
-  color: lightgrey;
-  padding: 7px;
+  color: #b4c1ce;
+  padding: 10px;
+  font-size: 20px;
 }
 
 .chat-window div i:hover {
-  color: black;
+  color: #32495b;
 }
 
 .chat-window div p {
   padding: 30px 10px;
   font-size: 14px;
   line-height: 25px;
+  color: #32495b;
 }
 
 .chat-window div img:last-child {
@@ -546,4 +556,5 @@ footer .container .copyrights .col:last-child li {
   right: 20%;
   bottom: -16%;
 }
+/* Fine Chat-Window */
 /* FINE CHAT BUTTON */
