@@ -187,7 +187,7 @@ header .teaser .container h1 {
 }
 
 header .teaser .container .text {
-  margin: 35px 0;
+  margin: 40px 0 50px 0;
 }
 /* Fine Teaser */
 
@@ -226,8 +226,8 @@ main .offers .intro img {
 main .offers .services .line-services,
 main .offers .services .col-services .col {
   background-color: white;
-  border: 2px solid #e9eff3;
-  border-radius: 2px;
+  border: 3px solid #e9eff3;
+  border-radius: 5px;
   margin-bottom: 50px;
 }
 
@@ -385,7 +385,7 @@ main .supporters .cta .col:first-child {
 }
 
 main .supporters .cta .col:first-child p {
-  margin: 70px 0;
+  margin: 50px 0 60px 0;
 }
 
 main .supporters .cta .col:first-child p:last-child {
