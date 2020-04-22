@@ -19,6 +19,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #ff7a59;
+}
+
 main h2 {
   color: #33475a;
   font-size: 35px;
@@ -40,6 +44,10 @@ main .number {
   font-size: 30px;
   font-weight: 650;
   text-transform: uppercase;
+}
+
+main .fa-check-circle {
+  color: #ff7a59;
 }
 
 .container {
@@ -68,6 +76,12 @@ main .number {
   color: white;
   border-radius: 3px;
   padding: 20px 25px;
+}
+
+.button:hover {
+  background-color: white;
+  color: #ff7a59;
+  border: 1px solid #ff7a59;
 }
 
 /* FINE REGOLE GENERALI */
@@ -239,7 +253,6 @@ main .offers .services .line-services .col:last-child hr {
 }
 
 main .offers .services .line-services .col:last-child i {
-  color: #ff7a59;
   padding-right: 10px;
 }
 
