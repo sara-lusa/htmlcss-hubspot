@@ -401,6 +401,7 @@ footer .container .footer-menus .col ul:last-child li {
   margin-top: 10px;
 }
 
+/* Colonna Languages-Menu */
 footer .container .languages-menu {
   text-align: center;
 }
@@ -408,5 +409,20 @@ footer .container .languages-menu {
 footer .container .languages-menu li {
   display: inline-block;
   padding: 0 10px 10px 10px;
+}
+
+/* Colonna Copyrights */
+footer .container .copyrights .col {
+  width: 50%;
+  padding: 40px 0;
+}
+
+footer .container .copyrights .col:last-child {
+  text-align: right;
+}
+
+footer .container .copyrights .col:last-child li {
+  display: inline-block;
+  padding-left: 20px;
 }
 /* FINE FOOTER */
