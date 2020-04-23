@@ -43,7 +43,7 @@ main .subtitle {
 
 main .number {
   font-size: 30px;
-  font-weight: 650;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -325,7 +325,7 @@ main .community .col:nth-child(10) {
   border-right: 0;
 }
 
-main .community .col:nth-child(1n+7) {
+main .community .col.bottom-line {
   border-bottom: 0;
 }
 
