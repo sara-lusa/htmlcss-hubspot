@@ -144,32 +144,32 @@ header nav .container .col.col-login a.button {
 /* Fine Navigation */
 
 /* Inizio Menu */
-header .menu {
+header #menu {
   background-color: white;
   padding: 25px 0;
 }
 
-header .menu .container .col {
+header #menu .container .col {
   line-height: 10px;
   width: 50%;
 }
 
-header .menu .container .col:last-child {
+header #menu .container .col:last-child {
   text-align: right;
 }
 
-header .menu .container .col ul li {
+header #menu .container .col ul li {
   display: inline-block;
 }
 
-header .menu .container .col ul li a,
-header .menu .container .col ul li a i {
+header #menu .container .col ul li a,
+header #menu .container .col ul li a i {
   padding: 0 10px;
 }
 /* Fine Menu */
 
 /* Inizio Teaser */
-header .teaser {
+header #teaser {
   background-image: url(../img/jumbotron.png);
   height: 690px;
   background-repeat: no-repeat;
@@ -177,23 +177,23 @@ header .teaser {
   background-color: #fef3ee;
 }
 
-header .teaser .container {
+header #teaser .container {
   width: 70%;
   padding-top: 50px;
 }
 
-header .teaser .container h1 {
+header #teaser .container h1 {
   font-size: 50px;
   color: #33475a;
 }
 
-header .teaser .container .text {
+header #teaser .container .text {
   margin: 40px 0 50px 0;
 }
 /* Fine Teaser */
 
 /* Inizio Divisione */
-header .division {
+header #division {
   background-color: #9be6dd;
   border-bottom: 3px solid #33475a;
   border-top: 3px solid #33475a;
@@ -208,88 +208,88 @@ header .division {
 
 /* MAIN */
 /* Inizio Intro */
-main .offers {
+main #offers {
   background-color: #f5f8fa;
 }
 
-main .offers .intro {
+main #offers .intro {
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-main .offers .intro img {
+main #offers .intro img {
   height: 200px;
 }
 /* Fine Intro */
 
 /* Inizio Services */
-main .offers .services .line-services,
-main .offers .services .col-services .col {
+main #offers .services .line-services,
+main #offers .services .col-services .col {
   background-color: white;
   border: 3px solid #e9eff3;
   border-radius: 5px;
   margin-bottom: 50px;
 }
 
-main .offers .services .line-services .col {
+main #offers .services .line-services .col {
   padding: 50px;
 }
 
 
-main .offers .services .line-services .col:first-child {
+main #offers .services .line-services .col:first-child {
   width: 30%;
   text-align: center;
   padding-bottom: 80px;
 }
 
-main .offers .services .icons {
+main #offers .services .icons {
   height: 100px;
   margin-bottom: 35px;
 }
 
-main .offers .services .line-services .col:last-child {
+main #offers .services .line-services .col:last-child {
   width: 70%;
 }
 
-main .offers .services .line-services .col:last-child hr,
-main .offers .services .line-services .col:last-child h4,
-main .offers .services .line-services .col:last-child li {
+main #offers .services .line-services .col:last-child hr,
+main #offers .services .line-services .col:last-child h4,
+main #offers .services .line-services .col:last-child li {
   display: inline-block;
   margin-top: 20px;
 }
 
-main .offers .services .line-services .col:last-child hr {
+main #offers .services .line-services .col:last-child hr {
   width: 60%;
   margin-bottom: 5px;
   margin-left: 40px;
 }
 
-main .offers .services .line-services .col:last-child i {
+main #offers .services .line-services .col:last-child i {
   padding-right: 10px;
 }
 
-main .offers .services .line-services .col:last-child li {
+main #offers .services .line-services .col:last-child li {
   padding-right: 10px;
 }
 
 /* Inizio Colonne */
-main .offers .services .col-services .col {
+main #offers .services .col-services .col {
   width: 30%;
   text-align: center;
   padding: 20px 25px 50px 25px;
 }
 
-main .offers .services .col-services .col:nth-child(2) {
+main #offers .services .col-services .col:nth-child(2) {
   margin: 0 5%;
 }
 
-main .offers .services .col-services .col hr {
+main #offers .services .col-services .col hr {
   width: 80%;
   margin: 50px auto 30px auto;
 }
 
-main .offers .services .col-services .col ul {
+main #offers .services .col-services .col ul {
   text-align: left;
   margin: 40px 0 60px 0;
 }
@@ -297,77 +297,77 @@ main .offers .services .col-services .col ul {
 /* Fine Services */
 
 /* Inizio Community */
-main .community {
+main #community {
   background-color: #01aab7;
   color: white;
   text-align: center;
   padding: 40px 0 100px 0;
 }
 
-main .community h2,
-main .community p {
+main #community h2,
+main #community p {
   color: white;
 }
 
-main .community p {
+main #community p {
   margin-bottom: 30px;
 }
 
-main .community .col {
+main #community .col {
   width: 25%;
   border-right: 1px solid white;
   border-bottom: 1px solid white;
   padding: 30px 0;
 }
 
-main .community .col:nth-child(6),
-main .community .col:nth-child(10) {
+main #community .col:nth-child(6),
+main #community .col:nth-child(10) {
   border-right: 0;
 }
 
-main .community .col.bottom-line {
+main #community .col.bottom-line {
   border-bottom: 0;
 }
 
-main .community .col p:not(.number) {
+main #community .col p:not(.number) {
   font-size: 12px;
   margin: 0;
 }
 
-main .community .col img {
+main #community .col img {
   height: 33px;
 }
 
-main .community .col .number {
+main #community .col .number {
   margin: 17px 0;
 }
 /* Fine Community */
 
 /* Inizio Supporters */
 /* Partners */
-main .supporters .partners {
+main #supporters .partners {
   padding: 40px 0;
 }
 
-main .supporters .partners .col:first-child {
+main #supporters .partners .col:first-child {
   width: 30%;
   padding: 0 40px 40px 100px;
 }
 
-main .supporters .partners .col:first-child .number {
+main #supporters .partners .col:first-child .number {
   padding-bottom: 30px;
 }
 
-main .supporters .partners .col:last-child {
+main #supporters .partners .col:last-child {
   width: 70%;
   text-align: center;
 }
 
-main .supporters .partners .col div:first-child {
+main #supporters .partners .col div:first-child {
   line-height: 90px;
 }
 
-main .supporters .partners .col img {
+main #supporters .partners .col img {
   display: inline-block;
   width: 20%;
   padding: 0 20px;
@@ -376,30 +376,30 @@ main .supporters .partners .col img {
 /* Fine Partners */
 
 /* Inizio Cta */
-main .supporters .cta {
+main #supporters .cta {
   margin-bottom: 60px;
   margin-top: 25px;
 }
 
-main .supporters .cta .col:first-child {
+main #supporters .cta .col:first-child {
   width: 40%;
 }
 
-main .supporters .cta .col:first-child p {
+main #supporters .cta .col:first-child p {
   margin: 50px 0 60px 0;
 }
 
-main .supporters .cta .col:first-child p:last-child {
+main #supporters .cta .col:first-child p:last-child {
   margin-bottom: 0;
   font-size: 13px;
 }
 
-main .supporters .cta .col:last-child {
+main #supporters .cta .col:last-child {
   width: 60%;
   text-align: right;
 }
 
-main .supporters .cta .col:last-child img {
+main #supporters .cta .col:last-child img {
   width: 45%;
 }
 /* Fine Cta */
